@@ -65,7 +65,7 @@ const Navbar = () => {
         <Link href='/'>
           {' '}
           <Image
-            src={`/../public/assets/LogoPortfolio-${logoColor}.png`}
+            src={`/assets/LogoPortfolio-${logoColor}.png`}
             alt='/'
             width='125'
             height='50'
@@ -116,10 +116,10 @@ const Navbar = () => {
             <div className='flex w-full items-center justify-between'>
               <Link href='/'>
                 <Image
-                  src='/../public/assets/LogoPortfolio.png'
+                  src={`/assets/LogoPortfolio-${logoColor}.png`}
                   alt='/'
-                  width='87'
-                  height='35'
+                  width={87}
+                  height={35}
                 />
               </Link>
 
@@ -168,22 +168,24 @@ const Navbar = () => {
                   Find me
                 </p>
                 <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
-                  <div className='rounded-full shadow-lg shadow-gray-700 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                    {' '}
-                    <FaLinkedinIn />
-                  </div>
-                  <div className='rounded-full shadow-lg shadow-gray-700 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                    {' '}
-                    <FaGithub />
-                  </div>
-                  <div className='rounded-full shadow-lg shadow-gray-700 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                    {' '}
-                    <AiOutlineMail />
-                  </div>
-                  <div className='rounded-full shadow-lg shadow-gray-700 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                    {' '}
-                    <BsFillPersonLinesFill />
-                  </div>
+                  <Link href='https://linkedin.com/in/kamil-kaźmierczak'>
+                    <div className='rounded-full shadow-lg shadow-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                      <FaLinkedinIn />
+                    </div>
+                  </Link>
+                  <Link href='https://github.com/kaz4486'>
+                    <div className='rounded-full shadow-lg shadow-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                      <FaGithub />
+                    </div>
+                  </Link>
+                  <Link
+                    href='mailto:kamilkazmierczak44@gmail.com
+'
+                  >
+                    <div className='rounded-full shadow-lg shadow-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                      <AiOutlineMail />
+                    </div>
+                  </Link>
                 </div>
               </div>
             </div>
