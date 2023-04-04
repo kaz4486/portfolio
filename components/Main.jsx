@@ -21,12 +21,15 @@ const Main = () => {
             <p className={styles.different}>Creating websites is what I do.</p>
           </div>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
-            <Link href='https://linkedin.com/in/kamil-kaźmierczak'>
+            <Link
+              href='https://linkedin.com/in/kamil-kaźmierczak'
+              target='_blank'
+            >
               <div className='rounded-full shadow-lg shadow-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <FaLinkedinIn />
               </div>
             </Link>
-            <Link href='https://github.com/kaz4486'>
+            <Link href='https://github.com/kaz4486' target='_blank'>
               <div className='rounded-full shadow-lg shadow-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <FaGithub />
               </div>
@@ -34,6 +37,7 @@ const Main = () => {
             <Link
               href='mailto:kamilkazmierczak44@gmail.com
 '
+              target='_blank'
             >
               <div className='rounded-full shadow-lg shadow-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <AiOutlineMail />

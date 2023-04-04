@@ -34,10 +34,10 @@ const furniture = () => {
             It was a group project lead by a mentor / project manager to mimic
             commercial programming environment in Kanban methodology.
           </p>
-          <Link href='https://kk-furniture-shop.netlify.app/'>
+          <Link href='https://kk-furniture-shop.netlify.app/' target='_blank'>
             <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
           </Link>
-          <Link href='https://github.com/kaz4486/wdp-2208-01'>
+          <Link href='https://github.com/kaz4486/wdp-2208-01' target='_blank'>
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </Link>
         </div>

@@ -4,7 +4,6 @@ import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { useRouter } from 'next/router';
 import clsx from 'clsx';
 import styles from '../styles/differentStyles.module.scss';
@@ -109,7 +108,7 @@ const Navbar = () => {
           className={
             nav
               ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#b9d8e0] p-10 ease-in duration-500'
-              : 'fixed left-[-100%] top-0  p-10 ease-in duration-500'
+              : 'fixed left-[-110%] top-0  p-10 ease-in duration-500'
           }
         >
           <div>

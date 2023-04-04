@@ -31,10 +31,13 @@ const bulletinBoard = () => {
             photos), edit and remove all his entries. Backend site built with
             Express and MongoDB.
           </p>
-          <Link href='https://AdsFullStackApp.kaz4486.repl.co'>
+          <Link href='https://AdsFullStackApp.kaz4486.repl.co' target='_blank'>
             <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
           </Link>
-          <Link href='https://github.com/kaz4486/Ads_FullStackApp'>
+          <Link
+            href='https://github.com/kaz4486/Ads_FullStackApp'
+            target='_blank'
+          >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </Link>
         </div>

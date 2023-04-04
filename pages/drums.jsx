@@ -35,10 +35,10 @@ const drums = () => {
             them to cart and prepare orders. User can choose products amount and
             editing cart.
           </p>
-          <Link href='https://drumshop.kaz4486.repl.co/'>
+          <Link href='https://drumshop.kaz4486.repl.co/' target='_blank'>
             <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
           </Link>
-          <Link href='https://github.com/kaz4486/Snare-Shop'>
+          <Link href='https://github.com/kaz4486/Snare-Shop' target='_blank'>
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </Link>
         </div>

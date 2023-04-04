@@ -41,10 +41,13 @@ const shopping = () => {
             signup & signin to personal account, save their lists, update and
             remove them.
           </p>
-          <Link href='https://shop-list-app.kaz4486.repl.co'>
+          <Link href='https://shop-list-app.kaz4486.repl.co' target='_blank'>
             <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
           </Link>
-          <Link href='https://github.com/kaz4486/advanced-shop-lists-app'>
+          <Link
+            href='https://github.com/kaz4486/advanced-shop-lists-app'
+            target='_blank'
+          >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </Link>
         </div>

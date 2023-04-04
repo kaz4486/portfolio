@@ -31,10 +31,13 @@ const pizzeria = () => {
             to cart and send them. You can also book a table in Booking
             sub-page.
           </p>
-          <Link href='https://project-pizzeria.kaz4486.repl.co'>
+          <Link href='https://project-pizzeria.kaz4486.repl.co' target='_blank'>
             <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
           </Link>
-          <Link href='https://github.com/kaz4486/project-pizzeria'>
+          <Link
+            href='https://github.com/kaz4486/project-pizzeria'
+            target='_blank'
+          >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </Link>
         </div>
