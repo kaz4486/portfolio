@@ -21,17 +21,17 @@ const Projects = () => {
         <h2 className='py-4'>What I've Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
-            title='Shopping List'
-            backgroundImg={shoppingImage}
-            projectUrl='/shopping'
-            technologies='React JS / React-Hook-Form / Typescript / Bootstrap / MongoDb /
-            Express'
-          />
-          <ProjectItem
             title='Drums Shop'
             backgroundImg={drumsShopImage}
             projectUrl='/drums'
             technologies='React JS / TypeORM / NestJS / Bootstrap '
+          />
+          <ProjectItem
+            title='Advanced Shopping List'
+            backgroundImg={shoppingImage}
+            projectUrl='/shopping'
+            technologies='React JS / React-Hook-Form / Typescript / Bootstrap / MongoDb /
+            Express'
           />
           <ProjectItem
             title='Furniture Shop'
