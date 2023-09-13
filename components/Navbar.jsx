@@ -24,7 +24,8 @@ const Navbar = () => {
       router.asPath === '/music' ||
       router.asPath === '/pizzeria' ||
       router.asPath === '/furniture' ||
-      router.asPath === '/bulletinBoard'
+      router.asPath === '/bulletinBoard' ||
+      router.asPath === '/promptopia'
     ) {
       setNavBg('transparent');
       setLinkColor('white');
