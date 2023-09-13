@@ -4,12 +4,22 @@ import React from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import styles from '../styles/differentStyles.module.scss';
+import Image from 'next/legacy/image';
+import jaImage from '../public/assets/ja.jpg';
 
 const Main = () => {
   return (
     <div id='home' className='w-full h-screen text-center'>
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
+          <div className='w-[50%] xl:w-[50%] h-auto m-auto shadow-xl shadow-gray-700 rounded-xl flex items-center  hover:scale-105 ease-in duration-300 my-10 p-2'>
+            <Image
+              objectFit='cover'
+              src={jaImage}
+              alt='autor'
+              className='rounded-xl p-2'
+            />
+          </div>
           <p className='uppercase text-sm tracking-widest text-gray-600'>
             LET'S BUILD SOMETHING TOGETHER
           </p>
