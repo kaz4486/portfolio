@@ -8,6 +8,7 @@ import musicServiceImage from '../public/assets/projects/music_service.png';
 import pizzeriaImage from '../public/assets/projects/pizzeria.png';
 import furnitureImg from '../public/assets/projects/furniture.png';
 import bulletinImg from '../public/assets/projects/bulletin.png';
+import promptopiaImage from '../public/assets/projects/promptopia.png';
 
 import ProjectItem from './ProjectItem';
 
@@ -20,6 +21,12 @@ const Projects = () => {
         </p>
         <h2 className='py-4'>What I've Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
+          <ProjectItem
+            title='Promptopia'
+            backgroundImg={promptopiaImage}
+            projectUrl='/promptopia'
+            technologies='Next.js / NextAuth / Tailwind CSS '
+          />
           <ProjectItem
             title='Drums Shop'
             backgroundImg={drumsShopImage}
